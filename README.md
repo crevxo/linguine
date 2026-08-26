@@ -4,7 +4,7 @@ A menu bar battery manager for Apple silicon Macs. Built as a replacement for
 AlDente, which puts most of its settings behind a paid licence.
 
 Lithium batteries wear fastest when held at 100%. Linguine stops charging at a
-limit you choose — 80% is the usual pick — so a Mac that lives on its charger
+limit you choose -- 80% is the usual pick -- so a Mac that lives on its charger
 isn't sitting full all day.
 
 ## What it does
@@ -12,13 +12,13 @@ isn't sitting full all day.
 Click the menu bar icon and set the charge limit. That's the whole of the basic
 use. The rest is optional:
 
-- **Sailing mode** — once the limit is reached, let the battery drift down a
+- **Sailing mode** -- once the limit is reached, let the battery drift down a
   few percent before charging resumes, instead of trickling constantly.
-- **Heat protection** — pause charging when the battery runs hot.
-- **Pause charging on sleep** — don't top up with the lid shut.
-- **Auto discharge** — if the battery is already above the limit, run it down
+- **Heat protection** -- pause charging when the battery runs hot.
+- **Pause charging on sleep** -- don't top up with the lid shut.
+- **Auto discharge** -- if the battery is already above the limit, run it down
   to meet it.
-- **Keep limit after quit** — the limit stays applied with the app closed.
+- **Keep limit after quit** -- the limit stays applied with the app closed.
 
 The menu also shows live power flow and a history of charge over time.
 
@@ -31,7 +31,7 @@ monthly.
 
 ## Installing
 
-**Don't drag this one to Applications** — it won't work on its own.
+**Don't drag this one to Applications** -- it won't work on its own.
 
 Download the zip from the [**Releases page**](../../releases/latest) and unzip
 it. Open that folder in Terminal and run:

@@ -1,7 +1,6 @@
 # Linguine
 
-A menu bar battery manager for Apple silicon Macs. Built as a replacement for
-AlDente, which puts most of its settings behind a paid licence.
+A menu bar battery manager for Apple silicon Macs.
 
 Lithium batteries wear fastest when held at 100%. Linguine stops charging at a
 limit you choose -- 80% is the usual pick -- so a Mac that lives on its charger

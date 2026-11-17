@@ -4,7 +4,7 @@ A menu bar battery manager for Apple silicon Macs.
 
 Lithium batteries wear fastest when held at 100%. Linguine stops charging at a
 limit you choose. A limit around 80% keeps a Mac that lives on its charger from
-isn't sitting full all day.
+sitting full all day.
 
 ## What it does
 

@@ -30,20 +30,20 @@ monthly.
 
 ## Installing
 
-**Do not drag Linguine to Applications.** The app needs its helper to work.
+Download the `.dmg` from the [**Releases page**](../../releases/latest), open
+it, and drag Linguine to Applications.
 
-Download the zip from the [**Releases page**](../../releases/latest) and unzip
-it. Open that folder in Terminal and run:
+The first time it opens, Linguine asks to install its charging helper, and
+macOS asks for your password once. Changing the charge limit means writing to
+the Mac's power controller, which needs admin rights. The helper does that part
+and runs as a launch daemon; the app itself runs as you.
 
-```
-sudo ./install.sh
-```
+If you open it from Downloads instead, it offers to move itself to
+Applications.
 
-It asks for your password because changing the charge limit means writing to
-the Mac's power controller, which needs admin rights. A small helper does that
-part and is installed as a launch daemon; the app itself runs as you.
-
-`./uninstall.sh` removes everything, helper included.
+To remove Linguine, download [`uninstall.sh`](uninstall.sh) and run
+`sudo bash uninstall.sh`. It hands charging back to macOS and removes the
+helper too.
 
 **Apple silicon only** (M1/M2/M3/M4). It will not run on an Intel Mac.
 
